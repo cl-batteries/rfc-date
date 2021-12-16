@@ -17,13 +17,13 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/rfc-date
+(defpackage :boost-rfc-date
   (:use :cl :re)
   (:export
    #:encode-universal-rfc-time
    #:decode-universal-rfc-time))
 
-(in-package :cl-batteries/rfc-date)
+(in-package :boost-rfc-date)
 
 ;;; ----------------------------------------------------
 
